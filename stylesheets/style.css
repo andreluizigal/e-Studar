@@ -1,0 +1,50 @@
+/* Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+header, .navbar {
+    background-color: green;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: yellow;
+}
+.navbar-brand:hover {
+    color: yellow;
+}
+
+#navbar-links a {
+    color: white;
+}
+
+#home-menu:hover, #vantagens-menu:hover, #teste-menu:hover  {
+    color: yellow;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
