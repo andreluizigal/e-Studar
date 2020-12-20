@@ -12,13 +12,13 @@ body {
 }
 
 p, li {
-    color: #444;
+    color: white;
     font-size: 14px;
 }
 
 /* Barra de navegação */
 header, .navbar {
-    background-color: rgba(231, 218, 25, 0.687);
+    background-color: rgba(231, 217, 25, 0.850);
 }
 
 
@@ -54,13 +54,23 @@ header, .navbar {
 
 /* Slider */
 #slider {
-    background-image: url('../images/slider2.jpg');
+    background-image: url('../images/slider 4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    
 }
 #h1Slider {
     font-family: 'Lobster', cursive;
     color: rgb(231, 217, 25);
     font-size: 100px;
+}
+
+button {
+    color: white;
+    background-color: rgb(231, 217, 25);
+    font-size: xx-large;
+    
 }
