@@ -18,8 +18,9 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-    background-color: rgba(15, 209, 86, 0.544);
+    background-color: rgba(231, 218, 25, 0.687);
 }
+
 
 #nav-container {
     padding-top: 0;
@@ -30,21 +31,36 @@ header, .navbar {
 }
 
 .navbar-brand {
+    font-family: 'Lobster', cursive;
     padding: 0;
-    color: yellow;
+    color: white;
+    font-size: 30px;
 }
 .navbar-brand:hover {
-    color: yellow;
+    color: black;
 }
 
 #navbar-links a {
     color: white;
 }
 
-#home-menu:hover, #vantagens-menu:hover, #teste-menu:hover  {
-    color: yellow;
+#navbar-links a:hover  {
+    color: black;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem;
+}
+
+/* Slider */
+#slider {
+    background-image: url('../images/slider2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+#h1Slider {
+    font-family: 'Lobster', cursive;
+    color: rgb(231, 217, 25);
+    font-size: 100px;
 }
