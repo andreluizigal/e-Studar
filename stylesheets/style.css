@@ -17,17 +17,19 @@ p, li {
 }
 
 /* Barra de navegação */
-header, .navbar {
+header, #navbar {
     background-color: rgba(231, 217, 25, 0.850);
 }
 
-
-#nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-#logo {
-    width: 75px;
+#menu1, #btnGroupDrop1, .dropdown-item {
+    font-size: 25px;
+    text-align: left;
+    padding: 5px;
+    background-color: gray;
+    font-family: 'Lobster', cursive;
+    border-color: white;
+    color: white;
+    
 }
 
 .navbar-brand {
@@ -35,21 +37,10 @@ header, .navbar {
     padding: 0;
     color: white;
     font-size: 30px;
+    text-align: justify;
 }
 .navbar-brand:hover {
     color: black;
-}
-
-#navbar-links a {
-    color: white;
-}
-
-#navbar-links a:hover  {
-    color: black;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
 }
 
 /* Slider */
@@ -72,5 +63,7 @@ button {
     color: white;
     background-color: rgb(231, 217, 25);
     font-size: xx-large;
-    
 }
+button:hover {
+    color: black;
+} 

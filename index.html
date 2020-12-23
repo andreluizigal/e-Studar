@@ -29,23 +29,19 @@
 </head>
 <body>
     <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <a href="#" class="navbar-brand">
-                    <img id="logo" src="images/online-graduation.png" alt="e-Studar"> e-Studar
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navgation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg px-2">
+            <a href="#" id="navbrand" class="navbar-brand">
+                <img src="images/online-graduation.png" width="60" height="60"> e-Studar
+            </a>
+            <div class="btn-group position-absolute end-0" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle mx-5" data-bs-toggle="dropdown" aria-expanded="false">Menu
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu">Home</a>
-                        <a class="nav-item nav-link" id="vantagens-menu">Vantagens</a>
-                        <a class="nav-item nav-link" id="teste-menu">Teste</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
+                <ul id="menu1" class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">Vantagens</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <section id="slider">
         <div class="container fluid text-center">
@@ -55,7 +51,7 @@
         </div>
         
 
-    </section>
+    </section class="container fluid">
 
    
 
