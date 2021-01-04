@@ -80,13 +80,25 @@ button:hover {
 
 /* Vantagens */
 
+
 #h1Vantagens {
     font-family: 'Lobster', cursive;
     color: rgb(231, 217, 25);
     font-size: 65px;
 }
 
-#elementoV {
+#elementoV, #elementoV2M {
     margin-top: 40px;
+}
+
+#h2V2 {
+    font-family: 'Lobster', cursive;
+    color: grey;
+}
+
+#h3V2 {
+     
+    color: grey;
+    font-size: large;
 }
 
