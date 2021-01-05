@@ -1,6 +1,7 @@
 /* Gerais */
 body {
     font-family: 'Roboto', sans-serif;
+    color: gray;
 }
 
 .row {
@@ -79,7 +80,9 @@ button:hover {
 } 
 
 /* Vantagens */
-
+#Vantagens {
+    background-color: rgb(240, 240, 240);
+}
 
 #h1Vantagens {
     font-family: 'Lobster', cursive;
@@ -102,3 +105,40 @@ button:hover {
     font-size: large;
 }
 
+/* Depoimentos */
+
+#Depoimentos {
+    color: white;
+}
+
+#h1Depoimentos{
+    font-family: 'Lobster', cursive;
+    color: rgb(231, 217, 25);
+    font-size: 100px;
+    margin-bottom: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#elementoD {
+    margin-bottom: 40px;
+}
+
+#h2D {
+    font-family: 'Lobster', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#fotoD {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color:  rgb(231, 217, 25);
+    box-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+
+#textoD {
+    margin-top: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
