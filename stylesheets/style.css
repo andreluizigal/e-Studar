@@ -164,3 +164,35 @@ button:hover {
 #textoDM {
     text-shadow: black 0.1em 0.1em 0.2em
 }
+
+/* Pacotes */
+
+#Pacotes {
+    background-color:rgb(240, 240, 240);
+}
+
+#h1Pacotes {
+    font-family: 'Lobster', cursive;
+    color:white;
+    font-size: 70px;
+    margin-bottom: 40px;
+    background-color: rgb(231, 217, 25);
+    border-radius: 100%;
+    width: 500px;
+    
+    
+}
+
+#elementoP {
+    background-color: white;
+    border-radius: 5%;
+}
+
+#tituloC {
+    font-family: 'Lobster', cursive;
+    color:rgb(231, 217, 25);
+    font-size: 300%;
+    margin-bottom: 20px;
+}
+
+
