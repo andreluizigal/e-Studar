@@ -1,5 +1,3 @@
-console.log('Testando');
-
 //Parallax
 
 setTimeout(function() {

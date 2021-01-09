@@ -195,4 +195,33 @@ button:hover {
     margin-bottom: 20px;
 }
 
+/* Cadastro */
+#Cadastro {
+
+    background-image: linear-gradient(rgb(240, 240, 240), rgb(231, 217, 25));
+}
+
+#h1Cadastro {
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 100px;
+    
+}
+
+#Formulario {
+    background-color: white;
+    padding: 20px;
+ 
+}
+
+#bordaF {
+    
+    border-left: 2px solid;
+    border-color: black;
+}
+
+#botaoC {
+    width: 200px;
+}
+
 
