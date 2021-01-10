@@ -220,8 +220,33 @@ button:hover {
     border-color: black;
 }
 
+#bordaM {
+    
+    border-top: 2px solid;
+    border-color: black;
+    padding-top: 10px;
+}
+
 #botaoC {
     width: 200px;
 }
 
+/* Rodapé */
 
+#Rodape {
+    
+    background-color: rgb(231, 217, 25);
+    color: black;
+}
+
+#h4R{
+    font-family: 'Lobster', cursive;
+}
+
+#h6R {
+    border-bottom: 2px solid;
+    border-color:black;
+    color: black;
+    padding: 0;
+    text-align: justify;
+}
