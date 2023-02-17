@@ -2,7 +2,7 @@
 
 ![preview](./.github/preview.png)
 
-Projeto construído para o desafio de HTML/CSS do processo de trainee da GTi Engenharia Jr.
+Projeto construído para o Desafio de HTML/CSS do processo de trainee da GTi Engenharia Jr. Site one page ilustrativo de uma plataforma de cursos online.
 
 [🔗 Clique aqui para acessar!](https://andreluizigal.github.io/e-Studar/)
 
